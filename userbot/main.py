@@ -146,7 +146,7 @@ try:
     bot.start()
     idim = bot.get_me().id
     neonbl = requests.get(
-        'https://raw.githubusercontent.com/nusrte/NeonUserBot-old/main/neonblacklist.json').json()
+        'https://raw.githubusercontent.com/nusrte/NeonUserBot/main/neonblacklist.json').json()
     if idim in neonbl:
         bot.disconnect()
 

@@ -37,7 +37,6 @@ telethon-session-sqlalchemy>=0.2.6
 urbandict>=0.5
 wikipedia>=1.4.0
 git+https://github.com/johnwmillr/LyricsGenius.git
-coffehouse
 git+https://github.com/bisoncorps/search-engine-parser
 numpy
 git+https://github.com/Joeclinton1/google-images-download.git

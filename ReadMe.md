@@ -41,7 +41,7 @@ You can contact us with all the buttons for questions you do not understand or h
 *** 
 
 ### _Deploy with Heroku._
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nusrte/NeonUserBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FaridDadashzade/NeonUserBot-Old)
 
 *** 
 

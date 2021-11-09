@@ -188,10 +188,6 @@
       "description": "Google Disk doğrulama məlumatlarını JSON quruluşu olaraq daxil edin.",
       "required": false
     },
-    "LYDIA_API_KEY": {
-      "description": "Bu modulun işləməsi üçün CoffeeHouse API lazımdır. 'https://coffeehouse.intellivoid.info/dashboard' Buradan əldə edə bilərsiniz.",
-      "required": false
-    },
     "WEATHER_DEFCITY": {
       "description": "UserBot hava modulu üçün standart şəhəri seçin.",
       "required": false

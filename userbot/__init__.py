@@ -107,7 +107,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 
 
 # Yenileme üçün repo linki
-UPSTREAM_REPO_URL = "https://github.com/nusrte/NeonUserBot-old.git"
+UPSTREAM_REPO_URL = "https://github.com/nusrte/NeonUserBot.git"
 
 
 # Konsol gündeliy
@@ -210,7 +210,7 @@ AVTO_QATILMA = sb(os.environ.get("AVTO_QATILMA", "True"))
 # Patternler
 PATTERNS = os.environ.get("PATTERNS", ".;!,")
 WHITELIST = get(
-    'https://raw.githubusercontent.com/nusrte/NeonUserBot-old/main/whitelist.json').json()
+    'https://raw.githubusercontent.com/nusrte/NeonUserBot/main/whitelist.json').json()
 
 # CloudMail.ru ve MEGA.nz
 if not os.path.exists('bin'):
@@ -318,9 +318,9 @@ with bot:
         @tgbot.on(NewMessage(pattern='/start'))
         async def start_bot_handler(event):
             if not event.message.from_id == uid:
-                await event.reply(f'`Salam mən` @NeonUserBot`! Mən sahibimə (`@{me.username}`) kömək etmək üçün varam, yəni sənə kömək edə bilmərəm :( Amma səndə [N Σ O N](https://t.me/NeonSup) User Bot qura bilərsən Dəstək qrupumuza gəl` @Neonsup')
+                await event.reply(f'**Salam, mən @NeonUserBot. Mən sahibimə — @{me.username}'ə, kömək etmək üçün varam, yəni sənə kömək edə bilmərəm. :/\nAmma sən də** [N Σ O N](https://t.me/NeonSup) **qura bilərsən.\nDəstək qrupumuza gəl @Neonsup.**')
             else:
-                await event.reply(f'`N Σ O N User Bot İşləyir🔥`')
+                await event.reply(f'**N Σ O N botun işləyir.** 🔥')
 
         @tgbot.on(InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):

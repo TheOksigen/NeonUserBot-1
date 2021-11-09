@@ -318,7 +318,7 @@ with bot:
         @tgbot.on(NewMessage(pattern='/start'))
         async def start_bot_handler(event):
             if not event.message.from_id == uid:
-                await event.reply(f'**Salam, mən @NeonUserBot. Mən sahibimə — @{me.username}'ə, kömək etmək üçün varam, yəni sənə kömək edə bilmərəm. :/\nAmma sən də** [N Σ O N](https://t.me/NeonSup) **qura bilərsən.\nDəstək qrupumuza gəl @Neonsup.**')
+                await event.reply(f"**Salam, mən @NeonUserBot. Mən sahibimə — @{me.username}'ə, kömək etmək üçün varam, yəni sənə kömək edə bilmərəm. :/\nAmma sən də** [N Σ O N](https://t.me/NeonSup) **qura bilərsən.\nDəstək qrupumuza gəl @Neonsup.**")
             else:
                 await event.reply(f'**N Σ O N botun işləyir.** 🔥')
 

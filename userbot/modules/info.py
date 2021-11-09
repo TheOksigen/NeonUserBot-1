@@ -7,7 +7,7 @@
 # Neon UserBot
 
 import asyncio
-from userbot import AVTO_PP, BOTLOG_CHATID, CMD_HELP, G_DRIVE_CLIENT_ID, LYDIA_API_KEY, NEON_VERSION, OCR_SPACE_API_KEY, OPEN_WEATHER_MAP_APPID, PM_AUTO_BAN, REM_BG_API_KEY, SPOTIFY_DC, YOUTUBE_API_KEY, lastfm, tgbot
+from userbot import AVTO_PP, BOTLOG_CHATID, CMD_HELP, G_DRIVE_CLIENT_ID, NEON_VERSION, OCR_SPACE_API_KEY, OPEN_WEATHER_MAP_APPID, PM_AUTO_BAN, REM_BG_API_KEY, SPOTIFY_DC, YOUTUBE_API_KEY, lastfm, tgbot
 from userbot.events import register
 from telethon import version
 from platform import python_version
@@ -46,7 +46,6 @@ async def durums(event):
 **GDrive:** `{durum(G_DRIVE_CLIENT_ID)}`
 **LastFm:** `{durum(lastfm)}`
 **YouTube ApiKey:** `{durum(YOUTUBE_API_KEY)}`
-**Lydia:** `{durum(LYDIA_API_KEY)}`
 **OpenWeather:** `{durum(OPEN_WEATHER_MAP_APPID)}`
 **AvtoPP:** `{durum(AVTO_PP)}`
 **RemoveBG:** `{durum(REM_BG_API_KEY)}`

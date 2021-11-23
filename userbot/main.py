@@ -27,13 +27,13 @@ import re
 import userbot.cmdhelp
 
 DIZCILIK_STR = [
-    "`Stickeri əkişdirdim...`",
-    "__Sticker paketə əlavə edilir...__",
-    "**Bu sticker artıq mənimdir!**",
-    "**Bunu stickerlərimə əlavə etməliyəm...**",
-    "`Sticker həps edilir...`",
+    "`Stickeri əkişdirdim...😊`",
+    "__Sticker paketə əlavə edilir...🔃__",
+    "**Bu sticker artıq mənimdir!🪴**",
+    "**Bunu stickerlərimə əlavə etməliyəm...➕**",
+    "`Sticker həps edilir...😁`",
     "__Mən bir sticker oğrusuyam stickerin məndədi ;D!__",
-    "**Nə gözəl stickerdi bu!**"
+    "**Nə gözəl stickerdi bu!👍**"
 ]
 
 AFKSTR = [
